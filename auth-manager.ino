@@ -12,8 +12,8 @@
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);
 
-const char* ssid     = "janithWLAN";
-const char* password = "janithWLAN..";
+const char* ssid     = "";
+const char* password = "..";
   
 WebSocketsServer websockets(81);
 
